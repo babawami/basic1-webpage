@@ -106,6 +106,7 @@ float:left;
 }
 
 
+
 @media screen and (min-width: 500px)
  {
    .city {
@@ -126,6 +127,26 @@ float:left;
   content: "";
   display: table;
   clear: both;
+}
+
+.place {
+  background-color: #ffad33;
+  width: 100%;
+}
+
+.places{
+  width:30%;
+  float:left;
+}
+
+.places img{
+width: 45%;
+float: left;
+}
+
+.places p{
+  width: 45%;
+  float: left;
 }
 
 

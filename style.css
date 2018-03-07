@@ -26,6 +26,7 @@ margin-bottom: 4px;
 float: left;
 }
 
+
 .city h2{
 font-family: monospace;
 margin-left: 4px;
@@ -132,8 +133,6 @@ float:left;
 }
 
 .place {
-  background-color: #ffad33;
-  width: 100%;
 }
 
 .places{

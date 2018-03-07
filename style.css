@@ -78,6 +78,10 @@ margin: 4px;
 }
 
 
+.place{
+  margin: 1em;
+  padding: 1em;
+}
 .place h2{
 font-family: monospace;
 margin-left: 4px;
@@ -86,17 +90,12 @@ text-decoration: underline;
 
 .place img{
   width: 50%;
-margin-left: 4px;
-margin-top: 4px;
-margin-bottom: 4px;
+margin:8px;
 float:left;
+padding: 5px;
 }
 
-.place p{
-  float:left;
-  width:40%;
-  margin: 4px;
-}
+
 
 .place:after{
   content: "";

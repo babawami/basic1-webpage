@@ -10,19 +10,18 @@
   clear: both;
 }
 
-.profile h2{
+.profile h1{
   font-family: monospace;
   float: left;
-  width: 20%;
+  width: 40%;
   margin-left: 4px;
-  margin-right:4px;
   text-decoration: underline;
+  text-align: center;
 }
 
 .profile img{
-  height: 200px;
-width: 60%;
-margin-left: 10%;
+  height: 200px ;
+width: 50%;
 margin-top: 4px;
 margin-bottom: 4px;
 float: left;
@@ -121,6 +120,10 @@ float:left;
    .city p{
      width: 40%;
      float: left;
+}
+
+.city h2{
+  text-align: center;
 }
 
 .city:before, .city:after{

@@ -1,5 +1,4 @@
 .main{
-  border: 1px solid;
   width: 100%;
   margin: auto;
 }
@@ -10,48 +9,60 @@
   clear: both;
 }
 
+}
+
 .profile h1{
   font-family: monospace;
-  float: left;
   width: 40%;
   margin-left: 4px;
-  text-decoration: underline;
-  text-align: center;
+  text-decoration: underline
+  text-align: left;
+  padding-right:10px;
+  float: left;
 }
 
 .profile img{
-width: 50%;
-margin-top: 4px;
-margin-bottom: 4px;
-float: left;
+width: 40%;
 }
 
 
-.city h2{
+.city h1{
 font-family: monospace;
 margin-left: 4px;
 text-decoration: underline;
+text-align: center;
+}
+
+.city h2{
+  padding-left: 4px;
 }
 
 .city img{
-width: 90%;
-margin: 4px;
+width: 50%;
+padding: 15px;
+float: left;
 }
 
 .city p{
-  width: 90%;
-  margin: 4px;
-  height: 40%;
+  padding: : 4px;
+  text-align: justify;
+}
+
+.city:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 #bold{
   font-weight: bold;
   text-decoration: underline;
 }
 
-.lang h2{
+.lang h1{
   font-family: monospace;
   text-decoration: underline;
   margin-left: 4px;
+  text-align: center;
 }
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -73,31 +84,36 @@ margin: 4px;
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color:#8000ff;
-    color: white;
+    background-color:white;
+    color: black;
 }
 
 
 .place{
-  margin: 1em;
-  padding: 1em;
+  width: 100%;
 }
-.place h2{
+
+.place h1{
 font-family: monospace;
 margin-left: 4px;
+text-align: center;
 text-decoration: underline;
 }
+.site h2{
 
-.place img{
-  width: 50%;
-margin:8px;
+}
+.site img{
 float:left;
-padding: 5px;
+padding: 15px;
+width: 70%;
 }
 
+.site p{
+  text-align: justify;
 
+}
 
-.place:after{
+ .site:after{
   content: "";
   display: table;
   clear: both;
@@ -105,51 +121,34 @@ padding: 5px;
 
 
 
-@media screen and (min-width: 500px)
+@media screen and (min-width: 700px)
  {
-   .city {
-     background-color: : :Green;
-
+   .profile{
+     display: flex;
+     padding: 1px;
+     margin: 1%;
    }
 
-   .city img{
+   .profile img{
+     padding: 10px;
      width: 50%;
+
+   }
+   .site {
      float: left;
+     width: 30%;
+     margin:1%;
    }
 
-   .city p{
-     width: 40%;
-     float: left;
-}
+   .site p{
+     text-align: justify;
+     padding-top: 10px;
+   }
 
-.city h2, .place h2, .lang h2{
-  text-align: center;
-}
-
-.city:before, .city:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.place {
-}
-
-.places{
-  width:30%;
-  float:left;
-}
-
-.places img{
-width: 45%;
-float: left;
-}
-
-.places p{
-  width: 45%;
-  float: left;
-}
-
+    .site:before{
+     content: "";
+     display: table;
+     clear: both;
+   }
 
 }

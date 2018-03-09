@@ -295,7 +295,7 @@ ol, ul {
   padding-left: 0;
   margin-top: 0; }
 ul ul,
-ul ol,
+ul ol,<div class="container">
 ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
@@ -320,7 +320,7 @@ pre > code {
   white-space: pre; }
 
 
-/* Tables
+/* Tables<div class="container">
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 th,
 td {
@@ -363,7 +363,7 @@ form {
   width: 100%;
   box-sizing: border-box; }
 .u-max-full-width {
-  max-width: 100%;
+  max-width: 100%;<div class="container">
   box-sizing: border-box; }
 .u-pull-right {
   float: right; }
@@ -391,10 +391,25 @@ hr {
   display: table;
   clear: both; }
 
+  /* MY OWN CSS*/
+  #center{
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  .break{
+    border-bottom: 1px solid black;
+  }
+  .four.columns img {
+    float: left;
+    margin: 1em;
+    overflow: hidden;
+  }
+
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
+/*<div class="container">
 Note: The best way to structure the use of media queries is to create the queries
 near the relevant code. For example, if you wanted to change the styles for buttons
 on small devices, paste the mobile query code up in the buttons section and style it

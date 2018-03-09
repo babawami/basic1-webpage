@@ -295,7 +295,7 @@ ol, ul {
   padding-left: 0;
   margin-top: 0; }
 ul ul,
-ul ol,<div class="container">
+ul ol,
 ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
@@ -395,15 +395,30 @@ hr {
   #center{
     text-align: center;
     border-bottom: 1px solid black;
+
   }
 
   .break{
     border-bottom: 1px solid black;
+    width: 100%;
   }
   .four.columns img {
     float: left;
     margin: 1em;
     overflow: hidden;
+  }
+
+  img{
+    width:100%;
+  }
+
+  .align{
+    text-align: justify;
+  }
+
+  #shade{
+    background-color: #f2f2f2;
+    text-align: center;
   }
 
 
